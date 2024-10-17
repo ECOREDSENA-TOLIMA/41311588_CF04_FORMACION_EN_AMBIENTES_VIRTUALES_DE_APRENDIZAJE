@@ -1,1 +1,2 @@
-module.exports = 'NOMBRE_DEL_COMPONENTE_FORMATIVO'
+module.exports =
+  'Evaluación del proceso formativo en el LMS, según orientaciones institucionales'

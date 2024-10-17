@@ -1,8 +1,10 @@
 export default {
   global: {
-    componenteFormativo: 'NOMBRE_DEL_COMPONENTE_FORMATIVO',
-    descripcionCurso: 'BREVE_DESCRIPCIÓN',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
+    componenteFormativo:
+      'Evaluación del proceso formativo en el LMS, según orientaciones institucionales',
+    descripcionCurso:
+      'La evaluación del rendimiento de un instructor virtual es clave para garantizar una educación de calidad, mejorar la experiencia de los aprendices y fomentar el crecimiento profesional del tutor. Hay que tener en cuenta, que dicha evaluación, no es solo del instructor con los aprendices, sino la manera como utiliza las diferentes herramientas que dispone en el LMS.',
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
       {
@@ -31,28 +33,32 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Titulo_de_primer_nivel',
+        titulo: 'Evaluación en formación virtual',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            numero: '1.1',
-            titulo: 'Titulo_de_segundo_nivel',
-            hash: 't_1_1',
-          },
-        ],
       },
 
       {
         nombreRuta: 'tema2',
         numero: '2',
-        titulo: 'Titulo_de_primer_nivel',
+        titulo: 'Momento de cierre de la formación virtual',
         desarrolloContenidos: true,
-      },
-      {
-        nombreRuta: 'tema3',
-        numero: '3',
-        titulo: 'Titulo_de_primer_nivel',
-        desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '2.1',
+            titulo: 'Juicios evaluativos',
+            hash: 't_2_1',
+          },
+          {
+            numero: '2.2',
+            titulo: 'Acciones al finalizar el curso',
+            hash: 't_2_2',
+          },
+          {
+            numero: '2.3',
+            titulo: 'Seguimiento y reportes',
+            hash: 't_2_3',
+          },
+        ],
       },
     ],
     subMenu: [
@@ -86,7 +92,7 @@ export default {
       {
         icono: 'fas fa-file-pdf',
         titulo: 'Descargar PDF',
-        download: 'downloads/prueba.pdf',
+        download: 'downloads/DI_04_41311588_DU.pdf',
       },
       {
         icono: 'fas fa-download',
@@ -102,28 +108,41 @@ export default {
   },
   complementario: [
     {
-      tema: 'Tema_complementario',
-      referencia: 'Referencia_complementario',
-      tipo: 'Tipo_complementario',
-      link: 'Link_complementario',
-    },
-    {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      descarga: '/downloads/prueba.pdf',
+      tema: '1. Evaluación en formación virtual',
+      referencia:
+        'SENA. (2019). Guía de orientaciones para la formación en ambientes virtuales de aprendizaje -AVA-. Aplicativo CompromISO.',
+      tipo: 'Documento',
+      link:
+        'https://compromiso.sena.edu.co/documentos/vista/descarga.php?id=2153',
     },
   ],
   glosario: [
     {
-      termino: 'Termino_glosario',
-      significado: 'Significado_glosario',
+      termino: 'Evaluación formativa',
+      significado:
+        'se aplica durante todo el proceso formativo evaluando los avances del aprendiz, permitiendo guiarlo en su aprendizaje hasta cumplir con los resultados de aprendizaje (es la que se realiza en cada resultado de aprendizaje del proceso formativo).',
+    },
+    {
+      termino: 'Evidencia',
+      significado:
+        'manifestación del aprendizaje, que refiere a la comprobación de lo que “sabe”, “sabe hacer” y “es” el aprendiz. Pueden ser de conocimiento y de desempeño, de las cuales se pueden inferir los logros de aprendizaje y establecer el desarrollo o no de las competencias (SENA, 2020).',
+    },
+    {
+      termino: 'Instrumento de evaluación',
+      significado:
+        'conjunto de herramientas utilizadas por el Instructor - tutor para recoger datos relacionados con los resultados de aprendizaje, los criterios de evaluación y las evidencias definidas en el diseño curricular (SENA, 2020).',
+    },
+    {
+      termino: 'Novedad',
+      significado:
+        'hace referencia a los diferentes casos que se presentan con algunos aprendices durante el proceso formativo, y no le permitieron cumplir con el objetivo de la aprobación de la formación.',
     },
   ],
   referencias: [
     {
-      referencia: 'Nombre_referencias',
-      link: 'Link_referencias',
+      referencia:
+        'Ángel, W. I. (2019). Guía de orientaciones para la formación en ambientes virtuales de aprendizaje –AVA-. Servicio Nacional de Aprendizaje SENA. (2020). Glosario SENA',
+      link: 'https://www.sena.edu.co/es-co/ciudadano/Paginas/glosario.aspx',
     },
   ],
   creditos: [

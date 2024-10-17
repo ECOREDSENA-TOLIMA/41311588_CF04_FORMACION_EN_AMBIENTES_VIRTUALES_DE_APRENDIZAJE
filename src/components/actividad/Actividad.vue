@@ -9,6 +9,8 @@
           {{ cuestionario.titulo }}
         </h2>
         <p class="mb-0" v-html="cuestionario.introduccion"></p>
+        <br />
+        <p class="mb-0" v-html="cuestionario.info"></p>
       </div>
     </div>
     <div class="tarjeta tarjeta--lightest-gray p-4 p-md-5">

@@ -79,8 +79,8 @@
           .tarjeta.color-secundario.bg1-1.w-100
             .text-black.p-4
               h4.text-center(style="color:#000000") Evidencia Conocimiento.
-              p.text-center(style="color:#000000") Instrumento: Cuestionario.
-              p.text-center(style="color:#000000") Instrumento: Rúbrica de evaluación. 
+              p.text-center(style="color:#000000") Instrumento: cuestionario.
+              p.text-center(style="color:#000000") Instrumento: rúbrica de evaluación. 
 
               
       .col-lg-4.col-8.mb-lg-0.mb-4(data-aos="zoom-in")
@@ -104,11 +104,11 @@
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-12(data-aos="fade-left") 
         p Los instrumentos de evaluación deben brindar al aprendiz seguridad y confianza en la valoración de las evidencias presentadas.
-        p A continuación, podrá conocer el procedimiento para la creación de algunos instrumentos de evaluación en la plataforma LMS SENA, por medio del siguiente video:
+        p A continuación, se podrá conocer el procedimiento para la creación de algunos instrumentos de evaluación en la plataforma LMS SENA, por medio del siguiente video:
 
     figure.mb-5(data-aos="zoom-in")
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/kjAVQM-fwp8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
 
 </template>

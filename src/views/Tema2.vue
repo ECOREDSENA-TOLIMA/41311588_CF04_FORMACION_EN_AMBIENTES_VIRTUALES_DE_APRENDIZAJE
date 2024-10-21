@@ -22,18 +22,18 @@
     
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-10
-        .cajon.color-secundario.p-4
+        .cajon.color-primario.cajon2.p-4
           .row.justify-content-center.align-items-center
             .col-lg-2
               figure
                 img(src='@/assets/curso/temas/tema2/img2.svg', alt='Imagen decorativa')
             .col-lg-10
-              p.mb-0 Los juicios evaluativos son los que se emiten al finalizar cada resultado de aprendizaje, estos juicios en la formación SENA se emiten con letra A: Aprobado y D: No aprobado.
+              p.mb-4 Los juicios evaluativos son los que se emiten al finalizar cada resultado de aprendizaje, estos juicios en la formación SENA se emiten con letra A: Aprobado y D: No aprobado.
               p.mb-0 Los juicios evaluativos son el resultado de la evaluación de cada una de las evidencias de aprendizaje entregadas por el aprendiz. Se otorga un juicio evaluativo por cada resultado de aprendizaje. Por ello, es importante conocer el proceso de evaluación de las diferentes evidencias programadas. A continuación, se presenta por medio de diferentes videos, cómo realizar dicho procedimiento en el LMS SENA:
     
     .titulo.mb-5(data-aos="flip-up")
       img(src='@/assets/curso/temas/ico.svg', alt='Imagen decorativa')
-      h5.mb-0 Evaluar evidencias de aprendizaje
+      h4.mb-0 Evaluar evidencias de aprendizaje
 
     figure.mb-5(data-aos="zoom-in")
       .video
@@ -41,7 +41,7 @@
 
     .titulo.mb-5(data-aos="flip-up")
       img(src='@/assets/curso/temas/ico.svg', alt='Imagen decorativa')
-      h5.mb-0 Evaluar foro
+      h4.mb-0 Evaluar foro
 
     figure.mb-5(data-aos="zoom-in")
       .video
@@ -49,7 +49,7 @@
     
     .titulo.mb-5(data-aos="flip-up")
       img(src='@/assets/curso/temas/ico.svg', alt='Imagen decorativa')
-      h5.mb-0 Evaluar wiki
+      h4.mb-0 Evaluar wiki
 
     figure.mb-5(data-aos="zoom-in")
       .video
@@ -57,7 +57,7 @@
 
     .titulo.mb-5(data-aos="flip-up")
       img(src='@/assets/curso/temas/ico.svg', alt='Imagen decorativa')
-      h5.mb-0 Juicios evaluativos
+      h4.mb-0 Juicios evaluativos
     
     .row.bg--gradientBlue.mb-4
       .col-10
@@ -68,21 +68,6 @@
           .col-lg-8.mb-lg-0.mb-4(data-aos="fade-right")
             p El proceso para la emisión de los juicios evaluativos lo realiza el instructor en la herramienta del Centro de Calificaciones del LMS o a través del sistema de SOFIA Plus.
             p Cuando se registran los juicios evaluativos de los resultados de aprendizaje, el sistema SOFIA Plus procederá a cambiar el estado del aprendiz de “en formación" a “por certificar”, esta situación no le permitirá́ al aprendiz ingresar nuevamente al programa de formación. En este sentido, se recomienda que el instructor realice el proceso de valoración por juicios evaluativos en el momento de realizar el cierre del curso.
-
-
-    .row.justify-content-center.align-items-center.mb-5
-      .col-lg-10
-        .cajon.color-secundario.p-4
-          .row.justify-content-center.align-items-center
-            .col-lg-2
-              figure
-                img(src='@/assets/curso/temas/tema2/img2.svg', alt='Imagen decorativa')
-            .col-lg-10
-              p.mb-0 A continuación, se muestra el procedimiento a seguir:
-
-    figure.mb-5(data-aos="zoom-in")
-      .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
 
     separador
@@ -96,7 +81,7 @@
     
     figure.mb-5(data-aos="zoom-in")
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/SRousNg-bf0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-12(data-aos="fade-left") 
@@ -118,7 +103,7 @@
         .row.justify-content-center.align-items-center
           .col-lg-12(data-aos="flip-up")
             .cajon.color-primario.cajon2.p-3
-              .row
+              .row.justify-content-center.align-items-center
                 .col-3
                   figure
                     img(src='@/assets/curso/temas/tema2/img4.svg', alt='Imagen decorativa')
@@ -133,7 +118,7 @@
     
     .titulo.mb-5(data-aos="flip-up")
       img(src='@/assets/curso/temas/ico.svg', alt='Imagen decorativa')
-      h5.mb-0 Reportes del curso 
+      h4.mb-0 Reportes del curso 
       
     figure.mb-5(data-aos="zoom-in")
       .video

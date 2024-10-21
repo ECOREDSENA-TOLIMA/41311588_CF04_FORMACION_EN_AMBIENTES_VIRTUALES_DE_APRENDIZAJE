@@ -141,7 +141,11 @@ export default {
   referencias: [
     {
       referencia:
-        'Ángel, W. I. (2019). Guía de orientaciones para la formación en ambientes virtuales de aprendizaje –AVA-. Servicio Nacional de Aprendizaje SENA. (2020). Glosario SENA',
+        'Ángel, W. I. (2019). Guía de orientaciones para la formación en ambientes virtuales de aprendizaje –AVA-. Servicio Nacional de Aprendizaje SENA. (2020).',
+      link: '',
+    },
+    {
+      referencia: 'Glosario SENA',
       link: 'https://www.sena.edu.co/es-co/ciudadano/Paginas/glosario.aspx',
     },
   ],

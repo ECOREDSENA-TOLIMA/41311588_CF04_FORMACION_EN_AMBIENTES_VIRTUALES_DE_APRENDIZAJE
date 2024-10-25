@@ -26,10 +26,10 @@
     .row.justify-content-center.mb-4
       .col-md-10.desktop(data-aos="zoom-in")
         figure
-          img(src='@/assets/curso/temas/tema1/img2.svg', alt='')
+          img(src='@/assets/curso/temas/tema1/img2.svg', alt='Imagen que relaciona los aspectos a tener en cuenta dentro del proceso de evaluación y estos son: diagnóstico, formación, valoración y nivel de competencia.')
       .col-md-6.movil(data-aos="zoom-in")
         figure
-          img(src='@/assets/curso/temas/tema1/img2_1.svg', alt='')
+          img(src='@/assets/curso/temas/tema1/img2_1.svg', alt='Imagen que relaciona los aspectos a tener en cuenta dentro del proceso de evaluación y estos son: diagnóstico, formación, valoración y nivel de competencia.')
     
     .titulo.mb-4(data-aos="flip-up")
       img(src='@/assets/curso/temas/ico.svg', alt='Imagen decorativa')
@@ -43,7 +43,7 @@
         AcordionA(tipo="b" clase-tarjeta="tarjeta tarjeta--azul")
           .row(titulo="Inicio")
             .col-lg-12.mb-4.mb-md-0
-              p #[b La evaluación diagnostica:] se orienta a conocer los saberes previos desde el punto de vista tecnológico y conceptual; es decir, a nivel del manejo de herramientas tecnológicas y el LMS, como también algunos conceptos de la temática del curso.
+              p #[b La evaluación diagnóstica:] se orienta a conocer los saberes previos desde el punto de vista tecnológico y conceptual; es decir, a nivel del manejo de herramientas tecnológicas y el LMS, como también algunos conceptos de la temática del curso.
               p Se aplica antes de dar inicio a las temáticas de la formación y su objetivo es reconocer los aprendizajes con los que el aprendiz llega al proceso formativo.
               p #[b Evaluación formativa:] se aplica durante todo el proceso educativo, evaluando los avances del aprendiz, permitiendo guiarlo en su formación, hasta alcanzar el o los resultados de aprendizaje definidos para cada programa.
 
@@ -88,7 +88,7 @@
           img(src='@/assets/curso/temas/tema1/img5.svg' alt='AvatarTop')
           .tarjeta.color-secundario.bg1-1.w-100
             .text-black.p-4
-              h4.text-center(style="color:#000000") Evidencia Desempeño
+              h4.text-center(style="color:#000000") Evidencia Desempeño.
               p.text-center(style="color:#000000") Instrumento: lista de chequeo.
               p.text-center(style="color:#000000") Instrumento: rúbrica de evaluación (Ejemplo rúbrica TIGRE).
               
@@ -97,7 +97,7 @@
           img(src='@/assets/curso/temas/tema1/img6.svg' alt='AvatarTop')
           .tarjeta.color-secundario.bg1-1.w-100
             .text-black.p-4
-              h4.text-center(style="color:#000000") Evidencia Producto
+              h4.text-center(style="color:#000000") Evidencia Producto.
               p.text-center(style="color:#000000") Instrumento: lista de verificación.
               p.text-center(style="color:#000000") Instrumento: rúbrica de evaluación.
 

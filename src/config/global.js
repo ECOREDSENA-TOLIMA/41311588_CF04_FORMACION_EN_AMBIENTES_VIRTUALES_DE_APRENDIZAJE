@@ -92,7 +92,7 @@ export default {
       {
         icono: 'fas fa-file-pdf',
         titulo: 'Descargar PDF',
-        download: 'downloads/DI_04_41311588_DU.pdf',
+        download: 'downloads/CFA_04_41311588_DU.pdf',
       },
       {
         icono: 'fas fa-download',
@@ -110,10 +110,9 @@ export default {
     {
       tema: '1. Evaluación en formación virtual',
       referencia:
-        'SENA. (2019). Guía de orientaciones para la formación en ambientes virtuales de aprendizaje -AVA-. Aplicativo CompromISO.',
+        'SENA. (2020). Guía de orientaciones para la formación en ambientes virtuales de aprendizaje -AVA-. Aplicativo CompromISO.',
       tipo: 'Documento',
-      link:
-        'https://compromiso.sena.edu.co/documentos/vista/descarga.php?id=2153',
+      link: 'https://compromiso.sena.edu.co/',
     },
   ],
   glosario: [
@@ -236,12 +235,12 @@ export default {
         },
         {
           nombre: 'Veimar Celis Meléndez',
-          cargo: 'Desarrollador Fullstack',
+          cargo: 'Desarrollador <em>Full stack</em>',
           centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },
         {
           nombre: 'Diego Fernando Velasco Güiza',
-          cargo: 'Desarrollador Fullstack',
+          cargo: 'Desarrollador F <em>Full stack</em>',
           centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },
         {

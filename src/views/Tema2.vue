@@ -41,7 +41,7 @@
 
     .titulo.mb-5(data-aos="flip-up")
       img(src='@/assets/curso/temas/ico.svg', alt='Imagen decorativa')
-      h4.mb-0 Evaluar foro
+      h4.mb-0 Evaluar Foro
 
     figure.mb-5(data-aos="zoom-in")
       .video
@@ -49,7 +49,7 @@
     
     .titulo.mb-5(data-aos="flip-up")
       img(src='@/assets/curso/temas/ico.svg', alt='Imagen decorativa')
-      h4.mb-0 Evaluar wiki
+      h4.mb-0 Evaluar Wiki
 
     figure.mb-5(data-aos="zoom-in")
       .video
@@ -67,7 +67,7 @@
               img(src='@/assets/curso/temas/tema2/img5.svg', alt='Imagen decorativa')
           .col-lg-8.mb-lg-0.mb-4(data-aos="fade-right")
             p El proceso para la emisión de los juicios evaluativos lo realiza el instructor en la herramienta del Centro de Calificaciones del LMS o a través del sistema de SOFIA Plus.
-            p Cuando se registran los juicios evaluativos de los resultados de aprendizaje, el sistema SOFIA Plus procederá a cambiar el estado del aprendiz de “en formación" a “por certificar”, esta situación no le permitirá́ al aprendiz ingresar nuevamente al programa de formación. En este sentido, se recomienda que el instructor realice el proceso de valoración por juicios evaluativos en el momento de realizar el cierre del curso.
+            p Cuando se registran los juicios evaluativos de los resultados de aprendizaje, el sistema SOFIA Plus procederá a cambiar el estado del aprendiz de “en formación” a “por certificar”, esta situación no le permitirá al aprendiz ingresar nuevamente al programa de formación. En este sentido, se recomienda que el instructor realice el proceso de valoración por juicios evaluativos en el momento de realizar el cierre del curso.
 
 
     separador
@@ -81,7 +81,7 @@
     
     figure.mb-5(data-aos="zoom-in")
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/SRousNg-bf0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/9wHrAU0Qzoc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-12(data-aos="fade-left") 
@@ -96,7 +96,7 @@
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-4(data-aos="zoom-in")
         figure
-          img(src='@/assets/curso/temas/tema2/img3.png', alt='Imagen que relaciona un ejemplo sobre las listas de chequeo en las tres modalidades, en ella se lleva a todo a partir de unos criterios establecidos.')
+          img(src='@/assets/curso/temas/tema2/img3.png', alt='Imagen decorativa')
 
       .col-lg-8
         p Una de las principales acciones en el momento de cierre del curso es generar informes o reportes sobre las diferentes acciones realizadas durante el programa de formación, ya sea por parte del aprendiz o el instructor. A continuación, se muestra el procedimiento para esta acción, por medio del video que se relaciona, seguido de estas dos apreciaciones:
@@ -122,7 +122,7 @@
       
     figure.mb-5(data-aos="zoom-in")
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/-gYl-1sp7Bc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
 </template>
 

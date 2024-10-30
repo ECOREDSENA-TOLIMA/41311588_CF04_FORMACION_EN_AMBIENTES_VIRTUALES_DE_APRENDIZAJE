@@ -110,9 +110,10 @@ export default {
     {
       tema: '1. Evaluación en formación virtual',
       referencia:
-        'SENA. (2020). Guía de orientaciones para la formación en ambientes virtuales de aprendizaje -AVA-. Aplicativo CompromISO.',
-      tipo: 'Documento',
-      link: 'https://compromiso.sena.edu.co/',
+        'Ángel, W. I. (2020). Guía de orientaciones para la formación en ambientes virtuales de aprendizaje -AVA-. Servicio Nacional de Aprendizaje SENA.',
+      tipo:
+        'Documento.<br>(Para acceder a este documento desde CompromISO, debe iniciar sesión con su usuario y contraseña. Si no tiene activado el acceso, solicítelo a través de su Centro de Formación.)',
+      link: 'http://www.compromiso.sena.edu.co/',
     },
   ],
   glosario: [
